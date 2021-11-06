@@ -16,10 +16,27 @@
 #### Metrics 
 
 __TABLE COLUMNS__
-- __Obesity__ `chao`
-- __Peaks__ `samarth`
-    [Random Peaks Guide](https://eddwardo.github.io/posts/2019-06-05-finding-local-extreams-in-pandas-time-series/)
-- __Mental Disorders__
+- __stateName__
+- __stateCode__ 
+- __wave1__ `samarth`
+- __wave2__ `samarth`
+- __wave3__ `samarth`
+- __wave4__ `samarth`
+- __obesity__ `chao`
+
+- __bachelorOrHigher__
+- __employmentRate__
+- __totalHousingUnits__
+- __withoutHealthcareCoverage__
+- __totalHouseholds__
+- __medianAge__
+- __noInternetSubscription__
+- __olderPopulation65__
+- __veterans__
+- __medianHouseholdIncome__
+- __poverty__
+- __bachelorsOrHigher__
+- __Mental Disorders__ 
 - __Political Affiliation__
 - __Voter Turnout__
 - __Hospitals__
@@ -32,7 +49,9 @@ __TABLE COLUMNS__
 ### 2. Metric Creationg 
 
 
-
+|Column Name|Column Description|Column Assigned| Column Status|
+|---|---|---|---|
+|__population__|Population of a State|`samarth`|Not finished|
 
 ## Datasets 
 | Dataset  | Location | Link |
