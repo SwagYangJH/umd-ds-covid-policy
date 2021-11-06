@@ -11,9 +11,11 @@
 ## HEAD 
 
 
-###  1. State Profiling 
+###  1. State Profiling  `ally`
 
 #### Metrics 
+
+__TABLE COLUMNS__
 - __Obesity__ `chao`
 - __Peaks__ `samarth`
     [Random Peaks Guide](https://eddwardo.github.io/posts/2019-06-05-finding-local-extreams-in-pandas-time-series/)
