@@ -21,15 +21,15 @@ All state profile dataset to be managed by ally.
 
 #### Metric Completion Table
 
-|Property|Assigned To|Source|Location in Repository|Year|Status|
-|---|--|--|---|---|----|
+|Property|Assigned To|Source|Location in Repository|Year|Status|Description|
+|---|--|--|---|---|----|---|
 | __stateName__|`global`|
-| __stateCode__| `global`|
+| __stateCode__| `global`|[random github](https://github.com/jasonong/List-of-US-States/blob/master/states.csv )|[us_states](datasets/us_states.csv)
 | __peak1__| `samarth`|
 | __peak2__| `samarth`|
 | __peak3__|`samarth`|
 | __peak4__| `samarth`|
-| __obesity__| `chao`
+| __obesity__| `chao`|https://www.cdc.gov/obesity/data/prevalence-maps.html#downloads|datasets/chao_obesity.csv|2020|Done|Prevalence of Self-Reported Obesity by State and Territory, BRFSS, 2020|
 | __bachelorOrHigher__|`samarth`|
 | __employmentRate__|`samarth`|
 | __totalHousingUnits__|`samarth`|
@@ -59,6 +59,14 @@ All state profile dataset to be managed by ally.
 # 2. Effectiveness Metric `chao` `george`
 
 
+## Moving Average 
+> To Judge the effectiveness of a covid policy, we use moving averages of new daily cases as a metric. 
+
+
+__IDEAS__<br/>
+1. [Pandas Rolling](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.rolling.html)
+2. 
+
 
 # 3. Final Model `samarth` `ally` `george` `chao`
 
@@ -68,4 +76,4 @@ All state profile dataset to be managed by ally.
 <!-- | Dataset  | Location | Link |
 | ------------- | ------------- |----|
 | Covid Factors  | datasets/Conditions_Contributing_to_COVID-19_Deaths__by_State_and_Age__Provisional_2020-2021.csv  ||
-|US States|datasets/us_states.csv|https://github.com/jasonong/List-of-US-States/blob/master/states.csv -->
+|US States|datasets/us_states.csv|-->
