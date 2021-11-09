@@ -29,7 +29,7 @@ All state profile dataset to be managed by ally.
 | __peak2__| `samarth`|
 | __peak3__|`samarth`|
 | __peak4__| `samarth`|
-| __obesity__| `chao`|https://www.cdc.gov/obesity/data/prevalence-maps.html#downloads|datasets/chao_obesity.csv|2020|Done|Prevalence of Self-Reported Obesity by State and Territory, BRFSS, 2020|
+| __obesity__| `chao`|https://www.cdc.gov/obesity/data/prevalence-maps.html#downloads|[chao_obesity](datasets/chao_obesity.csv)|2020|Done|Prevalence of Self-Reported Obesity by State and Territory, BRFSS, 2020|
 | __bachelorOrHigher__|`samarth`|
 | __employmentRate__|`samarth`|
 | __totalHousingUnits__|`samarth`|
