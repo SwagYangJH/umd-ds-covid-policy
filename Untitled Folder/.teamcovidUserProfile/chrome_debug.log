@@ -9,3 +9,6 @@
 [23813:21811:1106/175941.936500:WARNING:dns_config_service_posix.cc(192)] Failed to read DnsConfig.
 [23802:137035:1106/175942.316738:WARNING:dns_config_service_posix.cc(192)] Failed to read DnsConfig.
 [23813:21811:1106/175942.320358:WARNING:dns_config_service_posix.cc(192)] Failed to read DnsConfig.
+[23802:259:1106/190640.808601:INFO:CONSOLE(7290)] "crbug/1173575, non-JS module files deprecated.", source: chrome-error://chromewebdata/ (7290)
+[23802:259:1106/190646.656644:INFO:CONSOLE(0)] "Uncaught (in promise) Timeout", source: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dnltk%26rlz%3D1C5CHFA_en__966__966%26oq%3Dnltk%26aqs%3Dchrome..69i57.2045j0j7%26sourceid%3Dchrome%26ie%3DUTF-8&q=EgSLHNouGIvvm4wGIhA0F9rZ9s39atIwx_93HCL4MgFy (0)
+[23802:259:1106/190703.603934:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

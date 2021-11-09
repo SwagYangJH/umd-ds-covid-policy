@@ -11,50 +11,61 @@
 ## HEAD 
 
 
-###  1. State Profiling  `ally`
+#  1. State Profiling `ally`
+All state profile dataset to be managed by ally. 
+>Send it to him in this format 
+>|stateCode|stateName|Property{Obesity,bachelorOrHigher,.....}|
+>|----|----|----|
+>|AZ|Arizona|24.3|
+>|....|....|....|
 
-#### Metrics 
+#### Metric Completion Table
 
-__TABLE COLUMNS__
-- __stateName__
-- __stateCode__ 
-- __wave1__ `samarth`
-- __wave2__ `samarth`
-- __wave3__ `samarth`
-- __wave4__ `samarth`
-- __obesity__ `chao`
-
-- __bachelorOrHigher__
-- __employmentRate__
-- __totalHousingUnits__
-- __withoutHealthcareCoverage__
-- __totalHouseholds__
-- __medianAge__
-- __noInternetSubscription__
-- __olderPopulation65__
-- __veterans__
-- __medianHouseholdIncome__
-- __poverty__
-- __bachelorsOrHigher__
-- __Mental Disorders__ 
-- __Political Affiliation__
-- __Voter Turnout__
-- __Hospitals__
-    [Might help but currently unvalidated](https://www.ahd.com/state_statistics.html)
-- __Hospital Beds__
-- __Census Data__
-    [Scrape this](https://data.census.gov/cedsci/profile?g=0400000US02)
+|Property|Assigned To|Source|Location in Repository|Year|Status|
+|---|--|--|---|---|----|
+| __stateName__|`global`|
+| __stateCode__| `global`|
+| __peak1__| `samarth`|
+| __peak2__| `samarth`|
+| __peak3__|`samarth`|
+| __peak4__| `samarth`|
+| __obesity__| `chao`
+| __bachelorOrHigher__|`samarth`|
+| __employmentRate__|`samarth`|
+| __totalHousingUnits__|`samarth`|
+| __withoutHealthcareCoverage__|`samarth`|
+| __totalHouseholds__|`samarth`|
+| __medianAge__|`samarth`|
+| __noInternetSubscription__|`samarth`|
+| __olderPopulation65__|`samarth`|
+| __veterans__|`samarth`|
+| __medianHouseholdIncome__|`samarth`|
+| __poverty__|`samarth`|
+| __population__|`samarth`|
+| __bachelorsOrHigher__|`samarth`|
+| __mentalDisorders__ |`ally`|
+| __politicalAfiliation__|`george`|
+| __voterTurnout__|`george`|
+| __noHospitals__|`george`|
+| __hospitalBeds__|`george`|
 
 
-### 2. Metric Creationg 
+[Might help but currently unvalidated](https://www.ahd.com/state_statistics.html)
+[Scrape this](https://data.census.gov/cedsci/profile?g=0400000US02)
 
 
-|Column Name|Column Description|Column Assigned| Column Status|
-|---|---|---|---|
-|__population__|Population of a State|`samarth`|Not finished|
 
-## Datasets 
-| Dataset  | Location | Link |
+
+# 2. Effectiveness Metric `chao` `george`
+
+
+
+# 3. Final Model `samarth` `ally` `george` `chao`
+
+
+
+<!-- ## Datasets  -->
+<!-- | Dataset  | Location | Link |
 | ------------- | ------------- |----|
 | Covid Factors  | datasets/Conditions_Contributing_to_COVID-19_Deaths__by_State_and_Age__Provisional_2020-2021.csv  ||
-|US States|datasets/us_states.csv|https://github.com/jasonong/List-of-US-States/blob/master/states.csv
+|US States|datasets/us_states.csv|https://github.com/jasonong/List-of-US-States/blob/master/states.csv -->
