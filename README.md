@@ -12,6 +12,10 @@
 
 
 #  1. State Profiling `ally`
+
+## Description
+
+
 All state profile dataset to be managed by ally. 
 >Send it to him in this format 
 >|stateCode|stateName|Property{Obesity,bachelorOrHigher,.....}|
@@ -19,7 +23,7 @@ All state profile dataset to be managed by ally.
 >|AZ|Arizona|24.3|
 >|....|....|....|
 
-#### Metric Completion Table
+## State Profile Data Gathering
 
 |Property|Assigned To|Source|Location in Repository|Year|Status|Description|
 |---|--|--|---|---|----|---|
@@ -30,7 +34,6 @@ All state profile dataset to be managed by ally.
 | __peak3__|`samarth`|
 | __peak4__| `samarth`|
 | __obesity__| `chao`|https://www.cdc.gov/obesity/data/prevalence-maps.html#downloads|[chao_obesity](datasets/chao_obesity.csv)|2020|Done|Prevalence of Self-Reported Obesity by State and Territory, BRFSS, 2020|
-| __bachelorOrHigher__|`samarth`|
 | __employmentRate__|`samarth`|
 | __totalHousingUnits__|`samarth`|
 | __withoutHealthcareCoverage__|`samarth`|
@@ -48,6 +51,11 @@ All state profile dataset to be managed by ally.
 | __voterTurnout__|`george`|
 | __noHospitals__|`george`|
 | __hospitalBeds__|`george`|
+| __q1Mobility__|`george`|
+| __q2Mobility__|`george`|
+| __q3Mobility__|`george`|
+| __q4Mobility__|`george`|
+|__fireDeptByState__|`chao`|[This NFPA Paper](https://www.nfpa.org/-/media/Files/News-and-Research/Fire-statistics-and-reports/Emergency-responders/osNumberOfFireDeptInUS.ashx)|
 
 
 [Might help but currently unvalidated](https://www.ahd.com/state_statistics.html)
@@ -58,6 +66,13 @@ All state profile dataset to be managed by ally.
 
 # 2. Effectiveness Metric `chao` `george`
 
+## Description
+
+## Effectiveness Metric Data Gathering
+|Property|Assigned To|Source|Location in Repository|Year|Status|Description|
+|---|--|--|---|---|----|---|
+| __appleDataMobilityUsa__|`chao`|[Apple Mobility](https://covid19.apple.com/mobility)|[apple_data_mobility_usa.csv](datasets/apple_data_mobility_usa.csv)|9 November 2021|Country Mobility|
+| __googleDataMobilityUsa__|`chao`|[Google Mobility](https://www.google.com/covid19/mobility/)|[google_data_mobility_usa.csv](datasets/google_data_mobility_usa.csv)|9 November 2021|Country Mobility|
 
 ## Moving Average 
 > To Judge the effectiveness of a covid policy, we use moving averages of new daily cases as a metric. 
