@@ -55,7 +55,7 @@ All state profile dataset to be managed by ally.
 | __q2Mobility__|`george`|
 | __q3Mobility__|`george`|
 | __q4Mobility__|`george`|
-|__fireDeptByState__|`chao`|[This NFPA Paper](https://www.nfpa.org/-/media/Files/News-and-Research/Fire-statistics-and-reports/Emergency-responders/osNumberOfFireDeptInUS.ashx)|
+|__fireDeptByState__|`chao`|[This NFPA Paper](https://www.nfpa.org/-/media/Files/News-and-Research/Fire-statistics-and-reports/Emergency-responders/osNumberOfFireDeptInUS.ashx)|[chao_fire.csv](datasets/chao_fire.csv)|2017|
 
 
 [Might help but currently unvalidated](https://www.ahd.com/state_statistics.html)
@@ -71,8 +71,8 @@ All state profile dataset to be managed by ally.
 ## Effectiveness Metric Data Gathering
 |Property|Assigned To|Source|Location in Repository|Year|Status|Description|
 |---|--|--|---|---|----|---|
-| __appleDataMobilityUsa__|`chao`|[Apple Mobility](https://covid19.apple.com/mobility)|[apple_data_mobility_usa.csv](datasets/apple_data_mobility_usa.csv)|9 November 2021|Country Mobility|
-| __googleDataMobilityUsa__|`chao`|[Google Mobility](https://www.google.com/covid19/mobility/)|[google_data_mobility_usa.csv](datasets/google_data_mobility_usa.csv)|9 November 2021|Country Mobility|
+| __appleDataMobilityUsa__|`chao`|[Apple Mobility](https://covid19.apple.com/mobility)|[apple_data_mobility.csv](datasets/apple_data_mobility.csv)|9 November 2021|Country Mobility by apple|
+| __googleDataMobilityUsa__|`chao`|[Google Mobility](https://www.google.com/covid19/mobility/)|[google_data_mobility_usa.csv](datasets/google_data_mobility_usa.csv.zip)|9 November 2021|Country Mobility by google|
 
 ## Moving Average 
 > To Judge the effectiveness of a covid policy, we use moving averages of new daily cases as a metric. 
