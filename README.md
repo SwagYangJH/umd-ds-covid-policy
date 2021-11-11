@@ -27,25 +27,27 @@ All state profile dataset to be managed by ally.
 
 |Property|Assigned To|Source|Location in Repository|Year|Status|Description|
 |---|--|--|---|---|----|---|
-| __stateName__|`global`|
+| __stateName__|`global`|[random github](https://github.com/jasonong/List-of-US-States/blob/master/states.csv )|[us_states](datasets/us_states.csv)
 | __stateCode__| `global`|[random github](https://github.com/jasonong/List-of-US-States/blob/master/states.csv )|[us_states](datasets/us_states.csv)
 | __peak1__| `george`|
 | __peak2__| `george`|
 | __peak3__|`george`|
 | __peak4__| `george`|
 | __obesity__| `chao`|https://www.cdc.gov/obesity/data/prevalence-maps.html#downloads|[chao_obesity](datasets/chao_obesity.csv)|2020|Done|Prevalence of Self-Reported Obesity by State and Territory, BRFSS, 2020|
-| __employmentRate__|`samarth`|
-| __totalHousingUnits__|`samarth`|
-| __withoutHealthcareCoverage__|`samarth`|
-| __totalHouseholds__|`samarth`|
+| __employmentRate__|`samarth`|[.gov census page](https://data.census.gov/cedsci/map?q=Total%20Population&tid=PEPPOP2019.PEPANNRES&cid=DATE_CODE&vintage=2019&layer=VT_2019_040_00_PP_D1)|[sam_censusdata_merged.csv](datasets/sam_censusdata_merged.csv)|2019|Scraped using Scraper|
+| __employerEstablishments__|`samarth`|[.gov census page](https://data.census.gov/cedsci/map?q=Total%20Population&tid=PEPPOP2019.PEPANNRES&cid=DATE_CODE&vintage=2019&layer=VT_2019_040_00_PP_D1)|[sam_censusdata_merged.csv](datasets/sam_censusdata_merged.csv)|2019|Scraped using Scraper|
+| __totalHousingUnits__|`samarth`|[.gov census page](https://data.census.gov/cedsci/map?q=Total%20Population&tid=PEPPOP2019.PEPANNRES&cid=DATE_CODE&vintage=2019&layer=VT_2019_040_00_PP_D1)|[sam_censusdata_merged.csv](datasets/sam_censusdata_merged.csv)|2019|Scraped using Scraper|
+| __withoutHealthcareCoverage__|`samarth`|[.gov census page](https://data.census.gov/cedsci/map?q=Total%20Population&tid=PEPPOP2019.PEPANNRES&cid=DATE_CODE&vintage=2019&layer=VT_2019_040_00_PP_D1)|[sam_censusdata_merged.csv](datasets/sam_censusdata_merged.csv)|2019|Scraped using Scraper|
+| __totalHouseholds__|`samarth`|[.gov census page](https://data.census.gov/cedsci/map?q=Total%20Population&tid=PEPPOP2019.PEPANNRES&cid=DATE_CODE&vintage=2019&layer=VT_2019_040_00_PP_D1)|[sam_censusdata_merged.csv](datasets/sam_censusdata_merged.csv)|2019|Scraped using Scraper|
+| __hispanicOrLatinos__|`samarth`|[.gov census page](https://data.census.gov/cedsci/map?q=Total%20Population&tid=PEPPOP2019.PEPANNRES&cid=DATE_CODE&vintage=2019&layer=VT_2019_040_00_PP_D1)|[sam_censusdata_merged.csv](datasets/sam_censusdata_merged.csv)|2019|Scraped using Scraper|
 | __medianAge__|`samarth`|
 | __noInternetSubscription__|`samarth`|
 | __olderPopulation65__|`samarth`|
 | __veterans__|`samarth`|
-| __medianHouseholdIncome__|`samarth`|
+| __medianHouseholdIncome__|`samarth`|[.gov census page](https://data.census.gov/cedsci/map?q=Total%20Population&tid=PEPPOP2019.PEPANNRES&cid=DATE_CODE&vintage=2019&layer=VT_2019_040_00_PP_D1)|[sam_censusdata_merged.csv](datasets/sam_censusdata_merged.csv)|2019|Scraped using Scraper|
 | __poverty__|`samarth`|
-| __population__|`samarth`|
-| __bachelorsOrHigher__|`samarth`|
+| __population__|`samarth`|[.gov census page](https://data.census.gov/cedsci/map?q=Total%20Population&tid=PEPPOP2019.PEPANNRES&cid=DATE_CODE&vintage=2019&layer=VT_2019_040_00_PP_D1)|[sam_censusdata_merged.csv](datasets/sam_censusdata_merged.csv)|2019|Scraped using Scraper|
+| __bachelorsOrHigher__|`samarth`|[.gov census page](https://data.census.gov/cedsci/map?q=Total%20Population&tid=PEPPOP2019.PEPANNRES&cid=DATE_CODE&vintage=2019&layer=VT_2019_040_00_PP_D1)|[sam_censusdata_merged.csv](datasets/sam_censusdata_merged.csv)|2019|Scraped using Scraper|
 | __mentalDisorders__ |`ally`|
 | __politicalAfiliation__|`george`|
 | __voterTurnout__|`george`|
