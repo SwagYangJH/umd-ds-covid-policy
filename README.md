@@ -29,10 +29,10 @@ All state profile dataset to be managed by ally.
 |---|--|--|---|---|----|---|
 | __stateName__|`global`|
 | __stateCode__| `global`|[random github](https://github.com/jasonong/List-of-US-States/blob/master/states.csv )|[us_states](datasets/us_states.csv)
-| __peak1__| `samarth`|
-| __peak2__| `samarth`|
-| __peak3__|`samarth`|
-| __peak4__| `samarth`|
+| __peak1__| `george`|
+| __peak2__| `george`|
+| __peak3__|`george`|
+| __peak4__| `george`|
 | __obesity__| `chao`|https://www.cdc.gov/obesity/data/prevalence-maps.html#downloads|[chao_obesity](datasets/chao_obesity.csv)|2020|Done|Prevalence of Self-Reported Obesity by State and Territory, BRFSS, 2020|
 | __employmentRate__|`samarth`|
 | __totalHousingUnits__|`samarth`|
