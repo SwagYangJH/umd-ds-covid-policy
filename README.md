@@ -4,7 +4,7 @@
 - __Samarth Negi__ [samarth](https://github.com/tigboatnc)
 - __Ally__
 - __Chao Cao__
-- __Jingua Yang / Jang ?__
+- __Jinhua Yang __
 
 ------------ 
 
@@ -49,10 +49,10 @@ All state profile dataset to be managed by ally.
 | __population__|`samarth`|[.gov census page](https://data.census.gov/cedsci/map?q=Total%20Population&tid=PEPPOP2019.PEPANNRES&cid=DATE_CODE&vintage=2019&layer=VT_2019_040_00_PP_D1)|[sam_censusdata_merged.csv](datasets/sam_censusdata_merged.csv)|2019|To Verify|
 | __bachelorsOrHigher__|`samarth`|[.gov census page](https://data.census.gov/cedsci/map?q=Total%20Population&tid=PEPPOP2019.PEPANNRES&cid=DATE_CODE&vintage=2019&layer=VT_2019_040_00_PP_D1)|[sam_censusdata_merged.csv](datasets/sam_censusdata_merged.csv)|2019|To Verify|
 | __mentalDisorders__ |`ally`|
-| __politicalAfiliation__|`george`|
-| __voterTurnout__|`george`|
+| __politicalAfiliation__|`george`|[Gallup Historical Trends](https://https://news.gallup.com/poll/15370/party-affiliation.aspx
+| __voterTurnout__|`george`|[IDEA usa](https://www.idea.int/data-tools/country-view/295/40
 | __noHospitals__|`george`|
-| __hospitalBeds__|`george`|
+| __hospitalBeds__|`george`|[WHO hospital beds](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/hospital-beds-(per-10-000-population)
 | __q1Mobility__|`chao`|
 | __q2Mobility__|`chao`|
 | __q3Mobility__|`chao`|
