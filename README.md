@@ -52,7 +52,7 @@ All state profile dataset to be managed by ally.
 | __politicalAfiliation__|`george`|[Gallup Historical Trends](https://news.gallup.com/poll/15370/party-affiliation.aspx)
 | __voterTurnout__|`george`|[IDEA usa](https://www.idea.int/data-tools/country-view/295/40)
 | __noHospitals__|`george`|
-| __hospitalBeds__|`george`|[WHO hospital beds](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/hospital-beds-(per-10-000-population)
+| __hospitalBeds__|`george`|[WHO hospital beds](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/hospital-beds-(per-10-000-population))
 | __q1Mobility__|`chao`|
 | __q2Mobility__|`chao`|
 | __q3Mobility__|`chao`|
