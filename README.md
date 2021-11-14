@@ -4,7 +4,7 @@
 - __Samarth Negi__ [samarth](https://github.com/tigboatnc)
 - __Ally__
 - __Chao Cao__
-- __Jinhua Yang __
+- __Jinhua Yang__
 
 ------------ 
 
